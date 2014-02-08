@@ -1,0 +1,86 @@
+magic phase
+
+name:	select a spell
+actor:	phasing player
+		non-phasing player
+goal:	to select a spell 
+preconditions:	
+		 In one of the following phases
+			1. Movement
+			2. spell segment
+			3. counterspell segment
+			4. combat 
+summary:	
+Related usecases:
+		*Cast a spell
+		*Cast a counterspell
+		*Movement
+		*Combat
+steps:
+		1. Player select and click on one of his current characters
+		2. Computer displays a dialog with all avaiable spells listed for that character
+		3. Computer displays another red (warning) dialog with all higher level spells for that charater
+		4. Player select and click on one of the spells
+		5. Computer display a dialog with the information for that spell
+alternative:
+postcondition:
+
+name:	cast a spell 
+actor:	phasing player
+goal:	To cast a spell
+preconditions:	
+		phasing player has chosen a spell he want to cast
+summary:	
+Related usecases:
+steps:
+		1. Phasing Player perform "select a spell"
+		2. Computer display a buttom "Cast" in the info dialog 
+		3. player click on the buttom
+		4. computer display a dialog ask phasing player "Are you sure to cast this spell"
+		5. Player select and click on "Yes" 
+		6. Computer display a dialog "You have succeeded to cast spell ***"
+alternative:
+		Player click on the buttom "End of casting spells" which the bottom will always be displayed on side of the screen
+postcondition:
+
+name:	cancel a spell/counterspell
+actor:	Phasing player, non-phasing player
+goal:	Cancel 
+preconditions:
+summary:
+steps:
+
+alternative:
+postcondition:
+
+name:	cast a counterspell
+actor:
+goal:
+preconditions:
+summary:
+steps:
+
+alternative:
+postcondition:
+
+
+
+name:	mana regeneration
+actor:
+goal:
+preconditions:
+summary:
+steps:
+
+alternative:
+postcondition:
+
+name:	
+actor:
+goal:
+preconditions:
+summary:
+steps:
+
+alternative:
+postcondition:
