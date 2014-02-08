@@ -1,5 +1,29 @@
 magic phase
 
+name:	click on a self/friendly character/unit
+actor:	phasing player
+goal:	Basic Game Operation
+preconditions:	In the phase that player can act
+summary:
+steps:
+		1. Player select and click on a character/unit
+		2. Computer display all the information for that unit in the info dialog on the side of the window
+		3. Computer also display a dialog with following buttoms based on the phase the player is taking
+			a. Move
+			b. Cast spell
+alternative:
+postcondition:
+
+name:	click on a enemy character/unit
+actor:
+goal:
+preconditions:
+summary:
+steps:
+
+alternative:
+postcondition:
+
 name:	select a spell
 actor:	phasing player
 		non-phasing player
